@@ -12,21 +12,25 @@
 
 	/*padding: 10px 13px 5px 15px;*/
 	padding-top: 10px;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	margin: 10px;
 }
 
 body {
 	font-family: 'Allerta', sans-serif;
+	margin: 0;
 }
 
 .titulo {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 70px;
 }
 
 .title-a {
 	font-size: 24px;
+	margin-top: 0;
 }
 
 .guitarras h2 {
@@ -35,21 +39,35 @@ body {
 }
 .title-b {
 	font-size: 50px;
+	margin-bottom: 20px;
 }
 .portada {
 	background-image: url('../images/background.png');
 	color: white;
+	padding: 20px;
+	width: 800px;
+	margin: auto;
+}
+.portada button {
+	margin-bottom: 70px;
 }
 .guitarras {
 	color: #1f313C;
+	width: 800px;
+	margin: auto;
 }
 .menu {
 	font-size: 24px;
 	display: inline-block;
 }
 .menu li {
-	display: inline-block;	
+	display: inline-block;
+	margin-left: 30px;
 }
 .logotipo {
 	display: inline-block;
+}
+.header {
+	width: 800px;
+	margin: auto;
 }
