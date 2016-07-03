@@ -1,5 +1,21 @@
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Allerta', sans-serif;*/
+* {
+	/*/*width: ;
+	height: ;
+	
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 13px;*/
+
+	/*padding: 10px 13px 5px 15px;*/
+	padding-top: 10px;
+	border: 2px solid red;
+	margin: 10px;
+}
+
 body {
 	font-family: 'Allerta', sans-serif;
 }
