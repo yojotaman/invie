@@ -1,40 +1,32 @@
-/*body {
-	background: peru;
-}*/
-
-
-/*selector universal*/
-* { 													
-	border: 1px solid red;
-	margin: 10px;
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Allerta', sans-serif;*/
+body {
+	font-family: 'Allerta', sans-serif;
 }
 
-
-/*selector de etiqueta*/
-header {
-	background: blue;
+.titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
 }
-
-section {
-	background: purple;
-}
-
-/*selector descendente*/
-
-h3 {
-	color: green;
-}
-
-article h3 {
-	color: white;
-}
-
-/*selectores de clase*/
 
 .title-a {
-	background: yellow;
+	font-size: 24px;
 }
 
+.guitarras h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px
+}
 .title-b {
-	background: salmon;
+	font-size: 50px;
+}
+.portada {
+	background-image: url('../images/background.png');
+	color: white;
+}
+.guitarras {
+	color: #1f313C;
+}
+.menu {
+	font-size: 24px;
 }
