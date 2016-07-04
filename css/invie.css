@@ -11,9 +11,9 @@
 	padding-right: 13px;*/
 
 	/*padding: 10px 13px 5px 15px;*/
-	padding-top: 10px;
-	/*border: 2px solid red;*/
-	margin: 10px;
+	/*padding-top: 10px;
+	border: 2px solid red;
+	margin: 10px;*/
 }
 
 body {
@@ -45,16 +45,14 @@ body {
 	background-image: url('../images/background.png');
 	color: white;
 	padding: 20px;
-	width: 800px;
-	margin: auto;
+	
 }
 .portada button {
 	margin-bottom: 70px;
 }
 .guitarras {
 	color: #1f313C;
-	width: 800px;
-	margin: auto;
+
 }
 .menu {
 	font-size: 24px;
@@ -67,7 +65,8 @@ body {
 .logotipo {
 	display: inline-block;
 }
-.header {
+
+.contenedor {
 	width: 800px;
 	margin: auto;
 }
