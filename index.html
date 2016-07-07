@@ -52,7 +52,7 @@
 				
 			</article>
 			<article class="guitarra">
-				<img class="left" src="images/invie-classic.png" width="350" alt="Guitarra Invie classic"/>
+				<img class="left" src="images/invie-classic.png" width="450" alt="Guitrra Invie classic"/>
 				<div class="contenedor-guitarra-b">
 					<h3 class="title-b">Invie classic</h3>
 					<ol>					
@@ -64,6 +64,49 @@
 			</article>
 			
 		</section>
+		<footer class="footer">
+			<div class="contenedor">				
+				<div class="contacto">
+					<img src="images/invie-white.png" alt="Logotipo blanco"/>
+					<a href="tel:+3007613202"><strong>Teléfono </strong><span>3007613202</span></a>
+					<a href="mailto:contacto@invie.com.co"><strong>E-mail </strong><span>contacto@invie.com.co</span></a>
+				</div>
+			<form class="formulario">
+				<label for="nombre">Nombre</label/>
+				<input type="text" required id="nombre" name="nombre"/>
+				<label for="email">E-mail</label/>
+				<input type="email" required id="email"/>
+				<div class="sexo">					
+					<label for="mujer">					
+					<input type="radio" id="mujer" name="sexo">Mujer
+					</label>
+					<label for="hombre">					
+					<input type="radio" id="hombre" name="sexo">Hombre
+				</label>
+				</div>
+				<div class="intereses">
+					<label for="cotizacion">						
+						<input type="checkbox" id="cotizacion" name="Intereses">Cotización
+					</label>
+					<label for="reclamos">						
+						<input type="checkbox" id="reclamos" name="Intereses">Reclamos
+					</label>
+					<label for="comentarios">						
+						<input type="checkbox" id="comentarios" name="Intereses">Comentarios
+					</label>
+					<label for="otros">						
+						<input type="checkbox" id="otros" name="otros">Otros
+					</label>
+				</div>
+				<div>
+					<label for="comentarios">Comentarios</label>
+					<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+					<input type="submit" value="Enviar"/>
+				</div>
+			</form>
+				
+			</div>
+		</footer>
 		
 	</body>
 </html>
