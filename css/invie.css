@@ -20,7 +20,7 @@ body {
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
 }
-button {
+.button {
 	border-radius: 5px;
 	border: none;
 	background: #fd324e;
@@ -122,8 +122,19 @@ button {
 .footer {
 	background: #273b47;
 }
+.contacto {
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content:center;
+
+
+}
+
 .contacto img {
 	display: block;
+	margin-bottom: 30px;
 }
 .contacto strong {
 	display: block;
@@ -131,4 +142,38 @@ button {
 .contacto a {
 	color: white;
 	text-decoration: none;
+	margin: 10px 10px 10px 0;
+
+}
+
+.footer .contenedor {
+	display: flex;
+	justify-content: space-between;
+
+}
+.formulario {
+	display: flex;
+	width: 400px;
+	color: white;
+	padding: 50px 10px;
+}
+
+.col1, .col2 {
+	display: flex;
+	flex-direction: column;
+}
+.col1 {
+	margin-right: 15px;
+}
+.col2 {
+	align-items: flex-start;
+}
+.intereses label {
+	font-size: 12px;
+}
+.formulario label, .sexo, .intereses {
+	margin-bottom: 12px;
+}
+.sexo {
+	margin-top: 10px;
 }
