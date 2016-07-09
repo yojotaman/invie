@@ -71,6 +71,13 @@ body {
 	display: inline-block;
 	margin-left: 30px;
 }
+.menu li:before {
+	content: '∘';
+	font-size: 20px;
+	line-height: 20px;
+	color: #273b47;
+
+}
 .logotipo {
 	display: inline-block;
 }
